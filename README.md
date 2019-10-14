@@ -10,3 +10,8 @@
 等学好了去爬P站的
 程序截图：
 ![彼岸](https://github.com/lovebai/Python/blob/master/netbian/netbian.png?raw=true "彼岸")
+
+#### 领取QQ名片赞小程序
+（[点我查看](./qqmpz "点我查看")），入门学习，代码是真的不忍直视
+程序截图：
+![名片赞](https://github.com/lovebai/Python/blob/master/netbian/qqmpz.png?raw=true "名片赞")
