@@ -11,19 +11,18 @@ def open_url():
            'http://api.2019fafa.cn/api.php?id=null&url=http://www.qqguizu.com&tid=754&mm=123456&qq=',
            'http://api.2019fafa.cn/api.php?id=null&url=http://www.432ds.top&tid=2&mm=123456&qq=']
     txt = var.get()
-    if type(txt) ==int:
-        if len(str(txt)) <=10 and len(str(txt)) >4:
-            for each in url:
-                url = each + str(txt)
-                req = urllib.request.Request(url)
-                req.add_header('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36')
-                response = urllib.request.urlopen(url)
-                print(response.url)
-            tkinter.messagebox.showinfo('小白提示','恭喜你，领取成功啦！')
-        else:
-            tkinter.messagebox.showinfo('小白提示','请输入正确的QQ号!')
+    if len(str(txt)) <=10 and len(str(txt)) >4:
+        tkinter.messagebox.showinfo('小白提示','正在领取中请稍等哦....名片赞会在12小时内到账！')
+        for each in url:
+            url = each + str(txt)
+            req = urllib.request.Request(url)
+            req.add_header('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36')
+            response = urllib.request.urlopen(url)
+            print(response.url)
+        tkinter.messagebox.showinfo('小白提示','恭喜你，领取成功啦！')
     else:
-            tkinter.messagebox.showinfo('小白提示','这TM是你QQ号？牛批了啊你')
+        tkinter.messagebox.showinfo('小白提示','请输入正确的QQ号!')
+    
 
 root = tk.Tk()
 root.title('QQ名片赞领取小助手')

@@ -16,3 +16,7 @@
 程序截图：
 ![名片赞](https://github.com/lovebai/Python/blob/master/qqmpz/qq.png?raw=true "名片赞")
 
+#### 表情包下载
+（[点我查看](./emoji "点我查看")），爬取表情包
+程序截图：
+![表情包](https://www.xiaobaibk.com/content/uploadfile/201910/77ca1572011308.png "表情包")
