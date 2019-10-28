@@ -20,3 +20,8 @@
 （[点我查看](./emoji "点我查看")），爬取表情包
 程序截图：
 ![表情包](https://www.xiaobaibk.com/content/uploadfile/201910/77ca1572011308.png "表情包")
+
+#### 妹子图下载（http://cos.top15.cn/）
+（[点我查看](./meizi "点我查看")），爬取竖屏妹子壁纸
+程序截图：
+![图片](https://github.com/lovebai/Python/blob/master/meizi/meizi.png?raw=true "图片")
