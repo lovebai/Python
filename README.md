@@ -1,3 +1,12 @@
+<!--
+ * @Descripttion: 学习项目
+ * @version: 1.0.0
+ * @Author: Xiaobai
+ * @Date: 2019-10-13 20:25:13
+ * @LastEditors: Xiaobai
+ * @LastEditTime: 2019-12-14 18:50:27
+ * @BlogSite: https://www.xiaobaibk.com
+ -->
 ### 一些自学PYTHON时写的垃圾代码
 ### 代码渣的一批n
 #### 翻译小程序
@@ -25,3 +34,6 @@
 （[点我查看](./meizi "点我查看")），爬取竖屏妹子壁纸
 程序截图：
 ![图片](https://github.com/lovebai/Python/blob/master/meizi/meizi.png?raw=true "图片")
+
+#### Wallpaper壁纸下载优化版
+（[点我查看](./Wallpaper "点我查看")），壁纸下载优化版
