@@ -3,8 +3,8 @@
 @version: 1.0.0
 @Author: Xiaobai
 @Date: 2019-12-14 11:36:27
-@LastEditors: Xiaobai
-@LastEditTime: 2019-12-14 18:34:30
+@LastEditors  : Xiaobai
+@LastEditTime : 2019-12-18 22:58:06
 '''
 import urllib.request
 import parsel
@@ -13,7 +13,7 @@ import os
 ## 分类选择操作
 def link_url(site):
     print("\n请小主人选择一下分类\n")
-    pictureclass = ['/4kfengjing/','/4kmeinv/','/4kyouxi/','4kdongman/','/4kyingshi/','/4kmingxing/','/4kqiche/','/4kdongwu/','/4krenwu/','/4kmeishi/','/4kzongjiao/','/4kbeijing/']
+    pictureclass = ['/4kfengjing/','/4kmeinv/','/4kyouxi/','/4kdongman/','/4kyingshi/','/4kmingxing/','/4kqiche/','/4kdongwu/','/4krenwu/','/4kmeishi/','/4kzongjiao/','/4kbeijing/']
     classname = ['0：风景\n','1：美女\n','2：游戏\n','3：动漫\n','4：影视\n','5：明星\n','6：汽车\n','7：动物\n','8：人物\n','9：美食\n','10：宗教\n','11：背景\n']
     for each in classname:#遍历显示分类内容
         print(each)
