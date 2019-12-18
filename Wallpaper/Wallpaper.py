@@ -4,7 +4,7 @@
 @Author: Xiaobai
 @Date: 2019-12-14 11:36:27
 @LastEditors  : Xiaobai
-@LastEditTime : 2019-12-18 22:58:06
+@LastEditTime : 2019-12-18 23:05:33
 '''
 import urllib.request
 import parsel
@@ -12,17 +12,17 @@ import os
 
 ## 分类选择操作
 def link_url(site):
-    print("\n请小主人选择一下分类\n")
+    print("请小主人选择一下分类\n")
     pictureclass = ['/4kfengjing/','/4kmeinv/','/4kyouxi/','/4kdongman/','/4kyingshi/','/4kmingxing/','/4kqiche/','/4kdongwu/','/4krenwu/','/4kmeishi/','/4kzongjiao/','/4kbeijing/']
-    classname = ['0：风景\n','1：美女\n','2：游戏\n','3：动漫\n','4：影视\n','5：明星\n','6：汽车\n','7：动物\n','8：人物\n','9：美食\n','10：宗教\n','11：背景\n']
+    classname = ['0：风景','1：美女','2：游戏','3：动漫','4：影视','5：明星','6：汽车','7：动物','8：人物','9：美食','10：宗教','11：背景\n']
     for each in classname:#遍历显示分类内容
         print(each)
     t=int(input('请输入分类序号：'))#提示输入分类编号
     if(t==1):#一个小提示
-        print("哦哟哟，小心营养不良哦！^T_T^")
+        print("哦哟哟，小心营养跟不上哦！^T_T^\n\n")
     url=site+pictureclass[t]
     #print(url)
-    print('你选择了',classname[t][-3]+classname[t][-2])
+    print('你选择了',classname[t][-2]+classname[t][-1])
     return url#返回值
     
 ##请求操作
@@ -84,7 +84,7 @@ def save_img(folder,picurl,pictitle):#保存图片
                 with open(name+'.'+suffix,'wb') as f:
                     img=open_url(each)
                     f.write(img)#写入文件
-            print('正在下载',name)
+            print('正在保存',name)
 
 
 def download(folder='Wallpaper'):
@@ -113,9 +113,7 @@ def download(folder='Wallpaper'):
             save_img(folder,picurl,pictitle)#保存获取的图片
             #print(pictitle)
             
-print("-------------------------小白壁纸下载工具-----------------------------\n")#文本提示
-print("使用方法：比如你想下载\'美食\'那么就在输入框内输入它的序号\'9\'然后按下回车即可")#文本提示
-print("\n如果要停止下载可以按\"CTRL+C\"或者直接关闭本窗口Linux系统也按\"CTRL+C\"\n")#文本提示
+print("""使用方法：比如你想下载\'美食\'那么就在输入框内输入它的序号\'9\'然后按下回车即可\n如果要停止下载可以按\"CTRL+C\"或者直接关闭本窗口Linux系统也按\"CTRL+C\"""")#文本提示
 
 if __name__ == "__main__":
     download()
