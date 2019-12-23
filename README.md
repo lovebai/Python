@@ -3,12 +3,18 @@
  * @version: 1.0.0
  * @Author: Xiaobai
  * @Date: 2019-10-13 20:25:13
- * @LastEditors: Xiaobai
- * @LastEditTime: 2019-12-14 18:50:27
+ * @LastEditors  : Xiaobai
+ * @LastEditTime : 2019-12-23 22:14:41
  * @BlogSite: https://www.xiaobaibk.com
  -->
 ### 一些自学PYTHON时写的垃圾代码
-### 代码渣的一批n
+### 代码渣的一批
+
+#### GIF妹子图下载
+（[点我查看](./gif "点我查看"),下载某网站动态妹子图
+程序截图：
+![GIF](https://github.com/lovebai/Python/blob/master/gif/006WkX52gy1fw5l2ipx9cg309q0e61l2.gif?raw=true "GIF")
+
 #### 翻译小程序
 （[点我查看](./translate "点我查看")），里面有tkinter和终端版的，使用有道翻译的api
 程序截图：
